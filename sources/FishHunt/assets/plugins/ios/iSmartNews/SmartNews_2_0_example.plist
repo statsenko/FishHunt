@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>always</key>
+		<true/>
+		<key>cancel</key>
+		<string>No, Thanks</string>
+		<key>cancel_de</key>
+		<string>Nein, danke</string>
+		<key>cancel_es</key>
+		<string>No, Gracias</string>
+		<key>cancel_fr</key>
+		<string>Non, Merci</string>
+		<key>cancel_it</key>
+		<string>No, grazie</string>
+		<key>cancel_ja</key>
+		<string>遠慮します</string>
+		<key>cancel_ko</key>
+		<string>아니, 감사합니다</string>
+		<key>cancel_nl</key>
+		<string>Nee, bedankt</string>
+		<key>cancel_pt</key>
+		<string>Não, obrigado</string>
+		<key>cancel_pt_PT</key>
+		<string>Não, obrigado</string>
+		<key>cancel_ru</key>
+		<string>Нет, спасибо</string>
+		<key>cancel_sv</key>
+		<string>Nej, tack</string>
+		<key>cancel_zh</key>
+		<string>不用，謝謝</string>
+		<key>cancel_zh_Hans</key>
+		<string>不用，謝謝</string>
+		<key>cancel_zh_Hant</key>
+		<string>不用，謝謝</string>
+		<key>end</key>
+		<date>2016-03-26T08:41:00Z</date>
+		<key>link</key>
+		<string>http://apptds.com/apps.cgi?14&amp;parameter=doparvd</string>
+		<key>ok</key>
+		<string>Show me!</string>
+		<key>ok_de</key>
+		<string>Zeig mir wie!</string>
+		<key>ok_es</key>
+		<string>¡Muéstrame!</string>
+		<key>ok_fr</key>
+		<string>Essaie-la !</string>
+		<key>ok_it</key>
+		<string>Mostramela!</string>
+		<key>ok_ja</key>
+		<string>表示する！</string>
+		<key>ok_ko</key>
+		<string>보기!</string>
+		<key>ok_nl</key>
+		<string>Laat maar zien!</string>
+		<key>ok_pt</key>
+		<string>Me mostre!</string>
+		<key>ok_pt_PT</key>
+		<string>Me mostre!</string>
+		<key>ok_ru</key>
+		<string>Посмотреть!</string>
+		<key>ok_sv</key>
+		<string>Visa mig!</string>
+		<key>ok_zh</key>
+		<string>秀給我看！</string>
+		<key>ok_zh_Hans</key>
+		<string>秀給我看！</string>
+		<key>ok_zh_Hant</key>
+		<string>秀給我看！</string>
+		<key>repeat</key>
+		<true/>
+		<key>start</key>
+		<date>2013-09-20T21:18:00Z</date>
+		<key>text</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=en</string>
+		<key>text_de</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=de</string>
+		<key>text_es</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=es</string>
+		<key>text_fr</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=fr</string>
+		<key>text_it</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=it</string>
+		<key>text_ja</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=ja</string>
+		<key>text_ko</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=ko</string>
+		<key>text_nl</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=nl</string>
+		<key>text_pt</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=pt</string>
+		<key>text_pt_PT</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=pt</string>
+		<key>text_ru</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=ru</string>
+		<key>text_sv</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=sv</string>
+		<key>text_zh</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=zh</string>
+		<key>text_zh_Hans</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=zh</string>
+		<key>text_zh_Hant</key>
+		<string>http://aspsapps.com/ringtones/news/mTuber/banner.php?lang=zh</string>
+		<key>title</key>
+		<string>Never pay for videos again! </string>
+		<key>title_de</key>
+		<string>Nie wieder für Videos zahlen!</string>
+		<key>title_es</key>
+		<string>¡No pagues para ver vídeos nunca más!</string>
+		<key>title_fr</key>
+		<string>App de téléchargement vidéo top !</string>
+		<key>title_it</key>
+		<string>Non pagare più per i video!</string>
+		<key>title_ja</key>
+		<string>2度とビデオを購入する必要はありません</string>
+		<key>title_ko</key>
+		<string>다시는 비디오에 돈을 쓰지 마세요!</string>
+		<key>title_nl</key>
+		<string>Nooit meer voor video\'s betalen! </string>
+		<key>title_pt</key>
+		<string>Não pague por vídeos nunca mais!</string>
+		<key>title_pt_PT</key>
+		<string>Não pague por vídeos nunca mais!</string>
+		<key>title_ru</key>
+		<string>Никогда больше не платите за видео! </string>
+		<key>title_sv</key>
+		<string>Betala aldrig för videor igen! </string>
+		<key>title_zh</key>
+		<string>看視訊再也不付費！</string>
+		<key>title_zh_Hans</key>
+		<string>看視訊再也不付費！ </string>
+		<key>title_zh_Hant</key>
+		<string>看視訊再也不付費！ </string>
+		<key>type</key>
+		<string>web</string>
+	</dict>
+</array>
+</plist>

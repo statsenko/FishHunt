@@ -1,0 +1,751 @@
+<?xml version="1.0"?>
+<elements>
+	<steps>	
+	  
+	   <step id="1" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>Hooray! Your character have been reborn! You have to start from the beginning. Take these bonus [00CC03]Crystals and Coins[-] as a compensation!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+		</step>
+		
+		<step id="5" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>Welcome newbie cook! Start participating in [00CC03]Cooking Contests[-] to receive the&#xA;[00CC03]Best Cook Title![-]</description>
+			<mentor> 
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/7.Anchor (Play Button)/1.Button (Play)</pathToSceneObject>
+			    <position x="100" y="70"/>
+			    <rotate>30</rotate>
+			    <scale x="1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/7.Anchor (Play Button)/1.Button (Play)</path>
+			</pathToSceneObject>
+		</step>
+		
+	     
+		<step id="10" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Combine 3 [00CC03]Yummies[-] together to crash them!</description>
+			<mentor>
+				<position x="660" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="from_list">
+			    <tile col="3" row="0"/>
+			    <tile col="3" row="1"/>
+			</enabledTiles>
+			<notFadedTiles>
+				<tile col="3" row="0"/>
+			    <tile col="3" row="1"/>
+			    <tile col="3" row="2"/>
+			    <tile col="3" row="3"/>
+			</notFadedTiles>
+		</step>
+
+
+		<step id="15" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Wait for your opponent's turn...</description>
+			<mentor>
+				<position x="-20" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject> 
+			<enabledTiles type="all">
+			</enabledTiles>     
+		</step>
+
+
+		<step id="20" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Combine [EB0000]Shrooms[-] to decrease your opponent's score!</description>
+			<mentor>
+				<position x="-20" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="from_list">
+			    <tile col="4" row="3"/>
+			    <tile col="5" row="3"/>
+			</enabledTiles>
+			<notFadedTiles>
+				<tile col="4" row="3"/>
+			    <tile col="5" row="1"/>
+			    <tile col="5" row="2"/>
+			    <tile col="5" row="3"/>
+			</notFadedTiles>
+		</step>
+
+
+		<step id="25" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Wait for your opponent's turn...</description>
+			<mentor>
+				<position x="-20" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete> 
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject> 
+			<enabledTiles type="all">
+			</enabledTiles>   
+		</step>
+
+
+		<step id="30" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Look! See this [00CC03]Wonder-Box?[-]&#xA;You will pick it up if you make any [00CC03]Combo Blast[-] through the box!</description>
+			<mentor>
+				<position x="660" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="from_list">
+			    <tile col="0" row="1"/>
+			    <tile col="3" row="1"/>
+			    <tile col="4" row="1"/>
+			</enabledTiles>
+			<notFadedTiles>
+				<tile col="0" row="1"/>
+			    <tile col="3" row="1"/>
+			    <tile col="4" row="1"/>
+			    <tile col="3" row="0"/>
+			    <tile col="3" row="2"/>
+			    <tile col="3" row="3"/>
+			</notFadedTiles>
+		</step>
+
+
+		<step id="35" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Wait for your turn and plan your next move!</description>
+			<mentor>
+				<position x="660" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>     
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="all">
+			</enabledTiles>
+		</step>
+		
+
+		<step id="40" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>The more complicated combos you make, the more score they bring. Check possible [00CC03]Combos[-] up there...</description>
+			<mentor>
+				<position x="-20" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/MainPanel/12.Info Button</pathToSceneObject>
+			    <position x="0" y="0"/>
+			    <rotate>45</rotate>
+			    <scale x="-1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>      
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/12.Info Button</path>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="all">
+			</enabledTiles>	  
+		</step>
+		
+
+		<step id="45" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Look, another [00CC03]Wonder-Box![-]&#xA;You can also get it using [00CC03]Strikes![-] Try it with [00CC03]Line Strike![-]</description>
+			<mentor>
+				<position x="660" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/MainPanel/14.AbilitiesButtonsRadioGroup/GameUIAbilityButton0</pathToSceneObject>
+			    <position x="0" y="0"/>
+			    <rotate>45</rotate>
+			    <scale x="-1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/14.AbilitiesButtonsRadioGroup/GameUIAbilityButton0</path>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="from_list">
+				<tile col="3" row="0"/>
+			</enabledTiles>
+			<notFadedTiles>
+				<tile col="3" row="0"/>	            
+			</notFadedTiles>	        
+		</step>
+
+
+		<step id="50" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>[00CC03]Swipe[-] the line you want to blast with [00CC03]Line Strike![-]</description>
+			<mentor>
+			    <position x="660" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="from_list">
+			    <tile col="3" row="0"/>
+			    <tile col="3" row="1"/>
+			    <tile col="3" row="2"/>
+			    <tile col="3" row="3"/>
+			    <tile col="3" row="4"/>
+			    <tile col="3" row="5"/>	            
+			</enabledTiles>
+			<notFadedTiles>
+				<tile col="3" row="0"/>
+			    <tile col="3" row="1"/>
+			    <tile col="3" row="2"/>
+			    <tile col="3" row="3"/>
+			    <tile col="3" row="4"/>
+			    <tile col="3" row="5"/>
+			</notFadedTiles>	        
+		</step>
+
+
+		<step id="55" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>Keep calm and wait for your opponent!</description>
+			<mentor>
+			    <position x="660" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>      
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>
+			</pathToSceneObject>
+			<enabledTiles type="all">
+			</enabledTiles>
+		</step>
+
+
+		<step id="60" type="battle">
+			<scene>Game</scene>
+			<title>Battle tutorial</title>
+			<description>To [00CC03]win the match[-] and get all the rewards be the first to fill the [00CC03]Score Bar.[-] Use [00CC03]Combos[-] and [00CC03]Strikes![-]</description>
+			<mentor>
+				<position x="660" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<cameraDepth>2</cameraDepth>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/2.BoardCamera/Anchor/BoardPanel</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/9.Right ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/10.Right Score Label Anchor</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/4.Left ScoreBar</path>
+				<path>/UIRoot/1.MainCamera/Anchor/MainPanel/5.Left Score Label Anchor</path>	        	
+			</pathToSceneObject>
+			<enabledTiles type="from_list">
+			    <tile col="3" row="3"/>
+			    <tile col="3" row="4"/>
+			</enabledTiles>
+			<notFadedTiles>
+				<tile col="1" row="3"/>
+			    <tile col="2" row="3"/>
+			    <tile col="3" row="1"/>
+			    <tile col="3" row="2"/>
+			    <tile col="3" row="3"/>
+			    <tile col="3" row="4"/>
+			</notFadedTiles>
+		</step>
+
+
+		<step id="65" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>You can always get stronger! Let's try to cook some [00CC03]Power-Ups[-] using [00CC03]Ingredients[-] we have!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+				<isFlipBalloon>1</isFlipBalloon>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/4.Anchor (Craft Button)/1.Button (Craft)</pathToSceneObject>
+			    <position x="-30" y="30"/>
+			    <rotate>-30</rotate>
+			    <scale x="-1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/4.Anchor (Craft Button)/1.Button (Craft)</path>
+			</pathToSceneObject>
+		</step>
+		
+
+		<step id="70" type="default">
+			<scene>RecipesCraft</scene>
+			<title>RecipesCraft tutorial</title>
+			<description>Tap the button with [00CC03]Power-Up[-] to cook it!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+				<isFlipBalloon>1</isFlipBalloon>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/5.ScrollView (table)/1.Scroll View Panel (table)/1.Grid (table)/01/2.Recipe icon</pathToSceneObject>
+			    <position x="-30" y="30"/>
+			    <rotate>-30</rotate>
+			    <scale x="-1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/5.ScrollView (table)/1.Scroll View Panel (table)/1.Grid (table)/01</path>
+			</pathToSceneObject>
+		</step>
+
+
+		<step id="75" type="default">
+			<scene>RecipesCraft</scene>
+			<title>RecipesCraft tutorial</title>
+			<description>Claim the [00CC03]Power-Up[-] you cooked!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+				<isFlipBalloon>1</isFlipBalloon>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/5.ScrollView (table)/1.Scroll View Panel (table)/1.Grid (table)/01/2.Recipe icon</pathToSceneObject>
+			    <position x="-30" y="30"/>
+			    <rotate>-30</rotate>
+			    <scale x="-1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/5.ScrollView (table)/1.Scroll View Panel (table)/1.Grid (table)/01</path>
+			</pathToSceneObject>
+		</step>
+
+
+		<step id="80" type="default">
+			<scene>RecipesCraft</scene>
+			<title>RecipesCraft tutorial</title>
+			<description>Keep upgrading your [00CC03]Power-Ups![-] The stronger you are, the bigger chance to win you have!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+		</step>
+
+
+		<step id="85" type="default">
+			<scene>RecipesCraft</scene>
+			<title>RecipesCraft tutorial</title>
+			<description>Let's try your new [00CC03]Power-Up![-] Back to lobby!</description>
+			<mentor>
+				<position x="640" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			 <arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/3.Top Panel/11.Button (top-panel left-button)</pathToSceneObject>
+			    <position x="50" y="-35"/>
+			    <rotate>-30</rotate>
+			    <scale x="1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/3.Top Panel/11.Button (top-panel left-button)</path>
+			</pathToSceneObject>
+		</step>
+
+
+		<step id="90" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>Defeat your opponent with the new [00CC03]Power-Up![-]</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/7.Anchor (Play Button)/1.Button (Play)</pathToSceneObject>
+			    <position x="100" y="70"/>
+			    <rotate>30</rotate>
+			    <scale x="1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/7.Anchor (Play Button)/1.Button (Play)</path>
+			</pathToSceneObject>
+		</step>
+
+
+		<step id="95" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>Good Job! [00CC03]Task[-] completed.&#xA;You will get more tasks during the game. Now tap the tasks sticker to claim your [00CC03]Reward![-]</description>
+			<mentor>
+				<position x="640" y="0"/>
+				<scale x="-1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/10.Tasks UI/1.Anchor (Tasks Grid)/1.UIGrid (Tasks List)/1</pathToSceneObject>
+			    <position x="50" y="35"/>
+			    <rotate>30</rotate>
+			    <scale x="1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/10.Tasks UI/1.Anchor (Tasks Grid)/1.UIGrid (Tasks List)/1</path>
+			</pathToSceneObject>
+		</step>
+
+
+		<step id="100" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>Tap “Claim” to get your [00CC03]Reward![-]</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+				<isFlipBalloon>1</isFlipBalloon>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/10.Tasks UI/2.Anchor (Task UI)/1.UIPanel (Task UI)/TaskUI/2.Anchor (Center)/6.Anchor (Controll)</pathToSceneObject>
+			    <position x="-30" y="20"/>
+			    <rotate>-30</rotate>
+			    <scale x="-1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/10.Tasks UI/2.Anchor (Task UI)/1.UIPanel (Task UI)</path>
+			</pathToSceneObject>
+		</step>
+
+
+		<step id="105" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>Complete more [00CC03]Tasks[-] to access tough competitions with [00CC03]biggest Rewards![-]</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+		</step>
+
+
+		<step id="110" type="default">
+			<scene>MainLobby</scene>
+			<title>MainLobby tutorial</title>
+			<description>Good Luck on your way of becoming the &#xA;[00CC03]Best Chef![-]</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</step>
+	    
+	</steps>	
+	
+	<hints>
+		<hint id="1">
+			<scene>LevelUp</scene>
+			<title>Hint</title>
+			<description>Congratulations on achieving [00CC03]New Level![-] Choose a [00CC03]Yummie[-] to upgrade!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</hint>
+		
+		<hint id="2">
+			<scene>MainLobby</scene>
+			<title>Hint</title>
+			<description>It's time to expand! Tap the [00CC03]Cafes[-] button!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/2.Anchor (Cafe Button)</pathToSceneObject>
+			    <position x="-30" y="30"/>
+			    <rotate>-30</rotate>
+			    <scale x="-1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/2.Anchor (Cafe Button)</path>
+			</pathToSceneObject>
+		</hint>
+		
+		<hint id="3">
+			<scene>CafeMap</scene>
+			<title>Hint</title>
+			<description>Buy your new [00CC03]Cafe![-]</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<arrow>
+				<pathToSceneObject>/UIRoot/1.MainCamera/Anchor/1.MainPanel/2.ScrollView (cafe-map)/1.Scroll View Panel (cafe-map-scroll-view)/1.Map/cafe_1_anchor</pathToSceneObject>
+			    <position x="30" y="30"/>
+			    <rotate>30</rotate>
+			    <scale x="1" y="1"/>
+			</arrow>
+			<completeOnTap>0</completeOnTap>
+			<disablesPrevStep>1</disablesPrevStep>
+			<hideMentorOnComplete>0</hideMentorOnComplete>
+			<pathToSceneObject>
+				<path>/UIRoot/1.MainCamera/Anchor/1.MainPanel/2.ScrollView (cafe-map)/1.Scroll View Panel (cafe-map-scroll-view)/1.Map/cafe_1_anchor</path>
+			</pathToSceneObject>
+		</hint>
+		
+		<hint id="5">
+			<scene>CafeMap</scene>
+			<title>Hint</title>
+			<description>You own a new [00CC03]Cafe![-] Buy [00CC03]Cafes[-] to access new [00CC03]Power-Ups, Strikes[-] and other cool stuff!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</hint>
+		
+		<hint id="6">
+			<scene>MainLobby</scene>
+			<title>Hint</title>
+			<description>Here you can invite [00CC03]Friends[-] to the cooking challenge!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</hint>
+		
+		<hint id="7">
+			<scene>RecipesCraft</scene>
+			<title>Hint</title>
+			<description>One of your [00CC03]Power-Ups[-] requires [00CC03]Special Ingredients[-] to continue cooking! Complete various [00CC03]Cooking Contests[-] or play [00CC03]“Wonder Roulette”[-] to get them!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+				<isFlipBalloon>1</isFlipBalloon>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</hint>
+		
+		<hint id="8">
+			<scene>PrizeGeneration</scene>
+			<title>Hint</title>
+			<description>[00CC03]Cooking Contest[-] completed! Now you have a chance to win some cool stuff in [00CC03]"Wonder Roulette"![-] Good Luck!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</hint>
+		
+		<hint id="9">
+			<scene>WinLoose</scene>
+			<title>Hint</title>
+			<description>If you lose you can still grab [00CC03]Wonder-Boxes,[-] but it will cost you Crystals!</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</hint>
+		
+		<hint id="10">
+			<scene>CafeMap</scene>
+			<title>Hint</title>
+			<description>These are [00CC03]Cooking Contests![-] Tough contests give bigger [00CC03]Rewards.[-] Unlock new contests by completing [00CC03]Tasks![-]</description>
+			<mentor>
+				<position x="0" y="0"/>
+				<scale x="1" y="1"/>
+			</mentor>
+			<fadeScreen>1</fadeScreen>
+			<completeOnTap>1</completeOnTap>
+			<disablesPrevStep>0</disablesPrevStep>
+			<hideMentorOnComplete>1</hideMentorOnComplete>
+		</hint>
+	</hints>
+</elements>

@@ -1,0 +1,546 @@
+/////////////////////////////////////// 
+/// 								///
+/// 	HISTORY COMMICS		 		///
+///									///
+///////////////////////////////////////
+
+HistoryComics_Page01_SubTitle = Who will be\nthe best?
+	
+
+/////////////////////////////////////// 
+/// 								///
+/// 	CHARACTER CREATION 			///
+///									///
+///////////////////////////////////////
+
+CharacterCreation_DoneBtn = OK!
+CharacterCreation_Title = Choose Your Appearance
+CharacterCreation_DefaultInputText = Type Your Name
+CharacterCreation_RandomBtn = Randomize!
+
+CharacterCreation_ShortNameInputErrorAV_Message = Your name is too short. Please use at least 3 characters.
+
+CharacterCreation_EmptyInputErrorAV_Message = Please enter your charachter's name.
+
+CharacterCreation_UserBadNameErrorAV_Message = Do not use special characters in your name.
+
+CharacterCreation_CharacterAlreadyExistsErrorAV_Message = This name is already in use. Please choose another name and try again.
+
+CharacterCreation_CreationCommonErrorAV_Message = Cannot create character. Please try again later.
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 		LOGIN 					///
+///									///
+///////////////////////////////////////
+
+Login_LaunchLoading_Title = Loading
+
+Login_AutoLoginErrorAV_Message = Cannot login to the server.
+
+Login_OldVersionErrorAV_Message = You are using the old version. Please update it from the App Store!
+Login_OldVersionErrorAV_ConfirmBtn = Update!
+
+Login_AccountLoginErrorAV_Message = Cannot login to the server.
+
+Login_GuestLoginErrorAV_Message = Cannot login Guest user.
+
+Login_FBLoginErrorAV_Message = Cannot login Facebook user.
+
+Login_UserAlreadyLoggedErrorAV_Message = This user already logged in. Kick him out?
+
+Login_AccountNotExistsErrorAV_Message = Account does not exist. Do you want to create a new one?
+
+Login_BadEmailAddressErrorAV_Message = Please check the e-mail entered and try again.
+
+Login_AuthErrorAV_Message = Wrong e-mail or password. Please try again.
+
+Login_AccountCreationErrorAV_Message = Cannot create the account.
+
+Login_AccountLogin_Title = Login
+Login_AccountLogin_Description = Please enter your e-mail and password
+Login_AccountLogin_ForgotPasswordButton = Forgot password
+Login_AccountLogin_DoneButton = OK!
+Login_AccountLogin_DefaultEmailInputText = Enter e-mail here
+Login_AccountLogin_DefaultPswdInputText = Enter password here
+
+Login_AccountLogin_EmptyInputErrorAV_Message = Please enter e-mail and password.
+
+Login_AccountLogin_ShortPswdErrorAV_Message = The password is too short.  Please use at least {0} characters.
+
+Login_LoginOptions_Title = Hello!
+Login_LoginOptions_Description = Are you new to our game?
+Login_LoginOptions_CreateNewButton = Create New User
+Login_LoginOptions_FbButton = Login with FB
+Login_LoginOptions_LoginButton = Login
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	MAIN LOBBY 					///
+///									///
+///////////////////////////////////////
+
+Lobby_PlayButton = Play!
+
+Lobby_FullTime_Label = Full
+
+Lobby_GameInviteNotificationAV_Title = Challenge a Friend!
+Lobby_GameInviteNotificationAV_Message = Your friend \n"{0}"\n invites you to the game!
+Lobby_GameInviteNotificationAV_ConfirmationButton = Accept!
+
+Lobby_GameInviteAwaitingBuddyAV_Title = Challenge a Friend!
+Lobby_GameInviteAwaitingBuddyAV_Message = Waiting for your buddy...
+
+Lobby_GameInviteSendErrorAV_Message = Cannot send the invitation.
+
+Lobby_GameInviteGameCreationErrorAV_Message = Cannot create the game. Please try again later.
+
+Lobby_GameInviteReplyErrorAV_Message = Cannot create the game. Please try again later.
+
+Lobby_CharacterLoadingErrorAV_Message = Cannot load the character. Please try again later.
+
+Lobby_RateReviewAV_Title = Time to rate me :)
+Lobby_RateReviewAV_Message = I need more power and followers!
+Lobby_RateReviewAV_ConfirmBtn = Rate Me!
+Lobby_RateReviewAV_CancelBtn = Later
+
+Lobby_CreateAccountAV_Title = Create an Account!
+Lobby_CreateAccountAV_Message = You are playing as a guest user. Please create account to secure your game character!
+Lobby_CreateAccountAV_ConfirmBtn = Create Account
+
+Lobby_Friends_Title = Friends
+Lobby_Friends_DefaultInputText = Enter your friend's name
+
+Lobby_Friends_FriendAllreadyExistsInvitationErrorAV_Message = You've already made friends with "{0}"
+
+Lobby_Friends_FriendRemoveErrorAV_Message = Cannot remove friend. Please try again later.
+
+Lobby_Friends_FriendInvitationSentNotificationAV_Title = Invitation
+Lobby_Friends_FriendInvitationSentNotificationAV_Message = Your invitation was successfully sent.
+
+Lobby_Friends_FriendInviteErrorAV_Message = Cannot send the invitation. Please try again later.
+Lobby_Friends_FriendNotFoundInviteErrorAV_Message = We can't find this user. Please check for typos or try another name.
+
+Lobby_Friends_FriendInvitationDeclineErrorAV_Message = Cannot decline the invitation. Please try again later.
+
+Lobby_Friends_FriendInvitationAcceptErrorAV_CommonMessage = Cannot accept the invitation. Please try again later.
+Lobby_Friends_FriendInvitationAcceptErrorAV_MyListFullMessage = Your friends list is full. You cannot add any more friends.
+Lobby_Friends_FriendInvitationAcceptErrorAV_TheirListFullMessage = Sorry, your buddy's friends list is full.
+
+Lobby_Friends_FriendRemoveConfirmationAV_Message = Do you really want to remove "{0}" from friends?
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	GAME SELECTION 		 		///
+///									///
+///////////////////////////////////////
+
+GameSelection_ConfirmProposedPerkPurchaseAV_Message = Power-Ups make you stronger!
+GameSelection_ConfirmConsumedPerkPurchaseAV_Message = You ran out of Power-Up!
+
+GameSelection_PerkPurchasedAV_Title = Congratulations!
+GameSelection_PerkPurchasedAV_Message = The power-up is activated for the next 5 games. Good luck!
+GameSelection_PerkPurchasedAV_ConfirmBtn = Play!
+
+GameSelection_ShopPurchaseConfirmAV_Title = Get Stronger!
+
+/////////////////////////////////////// 
+/// 								///
+/// 	GAME LOADING 		 		///
+///									///
+/////////////////////////////////////// 
+
+GameLoading_LookingForOpponent = Looking for an opponent...
+GameLoading_GetReady = Get ready!
+GameLoading_FriendsGame = Challenge a Friend!
+
+GameLoading_JoinRoomErrorAV_Message = Cannot create the game. Please try again later.
+
+GameLoading_CannotLoadPlayerInfoErrorAV_Message = Cannot create the game. Please try again later.
+
+GameLoading_GetCafeErrorAV_Message = Cannot create the game. Please try again later.
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 		 GAME 		 			///
+///									///
+///////////////////////////////////////
+
+Game_NoMovesAvailableMsg = No Moves Availible!
+Game_UserMoveMsg = Your Turn!
+Game_OpponentMoveMsg = Opponent's Turn!
+Game_ExtraMoveMsg = Extra Turn!
+Game_TimeOutMsg = Time is Up!
+
+Game_PowerUpUsedMsg_Blender = MULTI BLAST!
+Game_PowerUpUsedMsg_Tricky = COMBO BLAST!
+Game_AbilityUsedMsg_LineAbility = Line Strike!
+Game_AbilityUsedMsg_BombAbility = Bomb Strike!
+Game_AbilityUsedMsg_CrossAbility = Cross Strike!
+Game_AbilityUsedMsg_EqualsAbility = Equals Strike!
+Game_AbilityUsedMsg_ExplosionAbility = Big Bang Strike!
+
+Game_WinAV_Title = Congratulations!\nYou Won! :)
+Game_LooseAV_Title = Nice Try! But...\nYou have Lost :(
+
+Game_TechVictoryAV_Title = Tech Victory
+Game_TechVictoryAV_Message = Your opponent ran away...\nYou won!
+
+Game_TechLooseAV_Title = Tech Loose
+Game_TechLooseAV_Message = It seems like you have some Internet connection issues... :(
+
+Game_StopGameErrorAV_Message = It seems like you have some Internet connection issues... :(
+
+Game_CommitProfitErrorAV_Message = It seems like you have some Internet connection issues... :(
+
+Game_Info_Next_Button = Next
+Game_Info_x4_PrizeTitle = Line Strike Blast!
+Game_Info_x5_PrizeTitle = Extra Turn!
+Game_Info_x6_PrizeTitle = Explodes equal Yummies!
+Game_Info_lt_PrizeTitle = Bomb Strike Blast!
+
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	WIN LOOSE			 		///
+///									///
+/////////////////////////////////////// 
+
+WinLoose_WinTitle = Congratulations,\nYou Won! :)
+WinLoose_LooseTitle = Sorry,\nYou have Lost :(
+WinLoose_LooseDescriptionTitle = Better luck next time!
+
+WinLoose_ProfitTitle = Your rewards:
+WinLoose_GrabBtnTitle = Grab it! {0}
+WinLoose_PrizeItemsTitle = Wonder-Boxes:
+WinLoose_NAPrizeItemsDescriptionTitle = You did not win any Wonder-Box :(
+WinLoose_DefMoneyProfitTitle = Coins:
+WinLoose_ExpProfitTitle = Experience:
+
+WinLoose_CafeMasteringTitle = Complete:
+WinLoose_GrabItemsTitle = Keep Wonder-Boxes\n for a few crystals!
+
+WinLoose_GrabProfitErrorAV_Message = Wonder-Box was not grabbed
+
+WinLoose_NewLevelAV_Title = Congratulations!
+WinLoose_NewLevelAV_Message = You have got new level!\nNow you can upgrade your Yummie!
+
+WinLooseFriends_WinTitle = Congratulations,\nYou Won! :)
+WinLooseFriends_LooseTitle = Sorry,\nYou have Lost :(
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	LEVEL UP			 		///
+///									///
+/////////////////////////////////////// 
+
+LevelUp_Title = New Level!
+LevelUp_SelectGemTitle = Upgrade Taste Level\nTasty Yummies will bring more game score!
+
+LevelUp_LevelUpCommonErrorAV_Message = Taste level was not upgraded. Try again later.
+
+LevelUp_GemNotSelectedErrorAV_Message = Choose a Yummie to upgrade taste level.
+
+LevelUp_DonBtn = OK!
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 		SETTINGS 			 	///
+///									///
+///////////////////////////////////////
+
+Settings_Title = Settings
+Settings_Description = Your account:
+
+Settings_DeleteCharacterBtnTitle = Delete Character
+Settings_ConnectToFacebookBtnTitle = Connect to FB
+Settings_CreateAccountBtnTitle = Create Account
+Settings_FaqBtnTitle = FAQ
+Settings_SupportBtnTitle = Support
+Settings_LogoutBtnTitle = Log out
+
+Settings_RemoveGuestErrorAV_Message = Cannot delete the character. Try again later.
+
+Settings_AccountCreateErrorAV_Message = Cannot create an account. Try again later.
+
+Settings_BadEmailAddressErrorAV_Message = Please check the e-mail entered and try again.
+
+Settings_RemoveCharacterWarningAV_Message = Your character will be permanently deleted!\nAre you sure?
+
+Settings_AccountCreate_Title = Create New Account
+Settings_AccountCreate_Description = Please enter your e-mail and password
+Settings_AccountCreate_DoneButton = OK!
+Settings_AccountCreate_DefaultEmailInputText = Enter e-mail here
+Settings_AccountCreate_DefaultPswdInputText = Enter password here
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	IN APP PURCHAISES 			///
+///									///
+///////////////////////////////////////
+
+InAppPurchase_Title = Add Funds
+
+InAppPurchase_InitStoreKitErrorAV_Message = No payments can be made at the moment.
+
+InAppPurchase_GetProductsListErrorAV_Message = Cannot get items list. Try again later.
+
+InAppPurchase_PurchaseErrorAV_Message = The purchase cannot be completed. Try again later.
+
+InAppPurchase_PurchaseCompletedNotificationAV_Title = Congratulations!
+InAppPurchase_PurchaseCompletedNotificationAV_DefaultMessage = Purchase completed!
+InAppPurchase_PurchaseCompletedNotificationAV_SpecifiedMessage = You have successfully purchased {0}!\nThank you for buying!
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 		SHOP 					///
+///									///
+///////////////////////////////////////
+
+Shop_WearShop_Title = Wear Shop\nCustomize your character here!
+Shop_WearShop_CommingSoonTitle = COMING SOON!
+Shop_WearShop_RespecButton = Change!
+
+Shop_Inventory_Section1_Title = Power-Ups and Strikes
+Shop_Inventory_Section2_Title = Ingredients
+Shop_Inventory_Section3_Title = Premium Ingredients
+
+Shop_NALevelForRespecAV_Message = This feature will be available when 2nd level is reached.
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	RECIPES CRAFT 		 		///
+///									///
+///////////////////////////////////////
+
+RecipesCraft_PremiumBoosts_Label = Premium Power-Ups
+RecipesCraft_IngredientsExisted_Label = Now you have:
+
+RecipesCraft_Cell_LockedTitle = Required {0}
+RecipesCraft_Cell_MasteredTitle = Max level reached!
+RecipesCraft_Cell_CompletedTitle = Cooking completed!
+RecipesCraft_Cell_HarvestBaloonTitle = Claim it!
+
+RecipesCraft_NACafeAV_Message = You need {0} to cook this item.
+
+RecipesCraft_PayWallAV_Title = Upgrade
+RecipesCraft_PayWallAV_Message = This items are required for cooking
+RecipesCraft_PayWallAV_ConfirmBtn = Cook!
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 		LEVEL RESPEC		 	///
+///									///
+///////////////////////////////////////
+
+LevelRespec_Title = Adjust Taste Level!
+LevelRespec_Description = Adjust Taste Level\nTasty Yummies will bring more game score!
+
+LevelRespec_ConfirmationAV_Title = Confirm
+LevelRespec_ConfirmationAV_Message = Taste Levels were changed. Do you want to save it?
+
+LevelRespec_RespecErrorAV_Message = Taste Levels were not changed. Try again later.
+
+LevelRespec_AutoAssign_Button = Auto assign
+
+	
+	
+/////////////////////////////////////// 
+/// 								///
+/// 		EXTRA BONUS			 	///
+///									///
+///////////////////////////////////////
+
+ExtraBonus_Title = Extra Bonus!
+ExtraBonus_Message = Please, select your ingredient!\n It's totally free for you
+ExtraBonus_Text_Count = Ingredients remains:
+ExtraBonus_Claim_Button = CLAIM!
+ExtraBonus_SuccessAV_Title = Congratulations!
+ExtraBonus_SuccessAV_Message = You have successfully chosen ingredients!
+ExtraBonus_ErrorAV_Title = Error!
+ExtraBonus_ErrorAV_Message = Select all ingredients to claim
+ExtraBonus_ErrorCommitAV_Message = Ingredients were not commited. Try again later.
+ExtraBonus_NoExtraBonusErrorAV_Message = Cannot choice ingredients. Try again later.
+	
+	
+	
+	
+/////////////////////////////////////// 
+/// 								///
+/// 		CAFE MASTERING		 	///
+///									///
+///////////////////////////////////////
+
+CafeMastering_Title = Congratulations!!!
+CafeMastering_Message = cafe mastered
+CafeMastering_GetPrize_Button = Get Prize!
+CafeMastering_NoCafeIdErrorAV_Message = Cannot get cafe information. Try again later
+
+/////////////////////////////////////// 
+/// 								///
+/// 	PRIZE GENERATION			///
+///									///
+///////////////////////////////////////
+
+PrizeGeneration_SpinButton = Spin!
+PrizeGeneration_RerollButton = Spin! {0}
+
+PrizeGeneration_NoPrizeGeneratorErrorAV_Message = Cannot spin the roulette. Try again later.
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 		CAFE MAP				///
+///									///
+///////////////////////////////////////
+
+CafeMap_CafePurchaseAV_Recipes_Title = Gives You
+CafeMap_CafePurchaseAV_Prizes_Title = Special Prize
+
+CafeMap_CafeInfoAV_Recipes_Title = Gives You
+CafeMap_CafeInfoAV_Prizes_Title = Special Prize
+CafeMap_CafeInfoAV_ConfirmBtn = Play!
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	LCOAL NOTIFICATIONS	 		///
+///									///
+///////////////////////////////////////
+
+LocalNotifications_LaunchMe24Hours = Time to cook! All your lives have been restored!
+LocalNotifications_LaunchMe48Hours = Open cooking contests are waiting! Challenge real cooks and win!
+LocalNotifications_LaunchMe7Days = Dont give up on your way to become the Best Chef! Let's cook!
+LocalNotifications_AllLifesRestored = All lives restored, сome play!
+LocalNotifications_CommonText = Time for a food fight!
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 			TASKS		 		///
+///									///
+///////////////////////////////////////
+
+TaskUI_WellDoneTitle = Well Done!
+TaskUI_WellDoneDescription = Now you can claim your reward!
+TaskUI_HarvestButtonTitle = Claim!
+TaskUI_StartButtonTitle = Start
+TaskUI_StartButtonExpiredTitle = Restart
+TaskUI_CraftActionTitle = Cook
+TaskUI_FbActionTitle = Post
+TaskUI_BossActionTitle = Fight
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 		RECIPES		 			///
+///									///
+///////////////////////////////////////
+
+Recipe_WithLifes_Title = Ambulance
+Recipe_WithExp_Title = Cooking Classes
+Recipe_WithMoney_Title = Tips
+Recipe_WithMoneyAndExp_Title = Smart and Rich
+
+Recipe_WithLifes_Description = Cook to [fffc00]get 5 Lives![-]
+Recipe_WithExp_Description = Cook to [fffc00]get Experience![-]
+Recipe_WithMoney_Description = Cook to [fffc00]get Coins![-]
+Recipe_WithMoneyAndExp_Description = Cook to [fffc00]get Coins and Experience![-]
+
+
+/////////////////////////////////////// 
+/// 								///
+///  	COMMON ALERTS				///
+///									///
+///////////////////////////////////////
+
+ErrorAV_Title = Error!
+WarningAV_Title = Warning!
+OopsAV_Title = Oops!
+
+ShopPurchaseConfirmAV_Title = Confirm Purchase!
+
+NALifesAV_Title = You ran out of lifes.
+NALifesAV_Message = You can get them all for a few crystals or just wait until lifes will be restored.
+NALifesAV_ConfirmBtn = Get and Play!
+
+NAMoneyAV_Title = Oops!
+NAMoneyAV_Message = You do not have enough funds to complete this action.
+
+NAIngredientsAV_Title = Some stuff is missing...
+NAIngredientsAV_WinItBtn = Win It!
+
+
+/////////////////////////////////////// 
+/// 								///
+///  	COMMON STRINGS				///
+///									///
+///////////////////////////////////////
+
+Common_NA_Money = Insufficient funds
+Common_NA_Level = Not enough level!
+Common_NA_MoneyAndLevel = Not enough funds and level!
+Common_NA_Ingredients = You don't have some stuff!
+Common_Buy = Buy!
+Common_AddMoney = Add Funds!
+Common_Close = Close
+Common_Cancel = Cancel
+Common_Continue = Continue
+Common_Ok = OK!
+Common_Yes = Yes!
+Common_No = No
+Common_NotNow = Not Now
+Common_Later = Later
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	FACEBOOK 					///
+///									///
+///////////////////////////////////////
+
+FB_ConnectErrorAV_Message = Cannot connect to Facebook.
+FB_ConnectErrorAV_AlreadyBind_Message = Facebook account is already in use. Please use the Create Account button to link an account to your e-mail.
+
+FB_ShareScreenshotAV_Title = Well Done!
+FB_ShareScreenshotAV_Message = Screenshot was posted to your feed!
+
+FB_ShareScreenshot_message = I'm on my way to becoming #1 Chef! Check out my Exquisite Cuisine!
+
+FB_ShareProgressAV_Title = Well Done!
+FB_ShareProgressAV_Message = Your progress was posted to your feed!
+
+FB_ShareLevelUp_message = Yahoo! I've got new level!
+
+
+/////////////////////////////////////// 
+/// 								///
+/// 	SMARTFOX CONNECTION 		///
+///									///
+///////////////////////////////////////
+
+SFS_ConnectionCreateErrorAV_Message = Connection problem. Check your Internet connection and try again.
+
+SFS_InitErrorAV_Message = Connection issue. Check your Internet connection and try again.
+
+SFS_BadResponseErrorAV_Message = Server issue. We are already working to resolve it! Please try again later.
+
+SFS_ConnectionLostErrorAV_Message = Connection lost. Check your Internet connection and try again.
+
+SFS_CommonErrorAV_Message = Something is wrong. We are already working to resolve the issue! Please try again later.
+
+SFS_ConnectionResponseTimeoutAV_Message = No connection. Check your Internet connection and try again.
+
+
+
