@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 public class AudioManager : MonoBehaviour 
 {
+
+	/*
 	public static string intro = "Intro";
 	public static string main_theme = "chefstory_main_theme";
 	public static string gameplay_theme = "chefstory_gameplay";
@@ -289,4 +291,5 @@ public class AudioManager : MonoBehaviour
 		PlayerPrefs.SetFloat("AudioManager_SfxVolume", sfxVolume_);
 		PlayerPrefs.SetFloat("AudioManager_MusicVolume", musicVolume_);
 	}
+	*/
 }
