@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LoginController : BaseController
+public class LoginController : UIController
 {
 
 

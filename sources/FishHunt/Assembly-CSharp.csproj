@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="assets\!ThirdParty\Flash_to_unity\Animation2D.cs" />
+     <Compile Include="assets\!ThirdParty\Flash_to_unity\Element2D.cs" />
+     <Compile Include="assets\!ThirdParty\Flash_to_unity\Keyframe2D.cs" />
      <Compile Include="assets\!ThirdParty\NGUI\Scripts\Interaction\LanguageSelection.cs" />
      <Compile Include="assets\!ThirdParty\NGUI\Scripts\Interaction\UIButton.cs" />
      <Compile Include="assets\!ThirdParty\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
