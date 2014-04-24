@@ -7,7 +7,6 @@ using Extensions;
 [ExecuteInEditMode]
 public class UIAlertViewControllerBase : MonoBehaviour 
 {
-	/*
 	public delegate void OnAlertViewWillAppear(UIAlertViewControllerBase sender);
 	public OnAlertViewWillAppear onAlertViewWillAppear;
 	
@@ -35,7 +34,7 @@ public class UIAlertViewControllerBase : MonoBehaviour
 	protected List<UISlicedImageButton> activeButtons = new List<UISlicedImageButton>();
 	
 	public UISprite backgroundSprite = null;
-	public MYLabel titleLabel = null;
+	public UILabel titleLabel = null;
 	public UISprite titleIconSprite = null;
 	public Transform contentGroupTransform = null;
 	
@@ -130,7 +129,7 @@ public class UIAlertViewControllerBase : MonoBehaviour
 		positionTweener.Play(true);
 		
 		//play sfx
-		AudioManager.PlaySfxClip(AudioManager.alert_appear_sfx);
+//!!!		AudioManager.PlaySfxClip(AudioManager.alert_appear_sfx);
 	}
 	
 	public virtual void Dismiss()
@@ -176,7 +175,7 @@ public class UIAlertViewControllerBase : MonoBehaviour
 			onAlertViewButton(index);
 		}
 		
-		AudioManager.PlaySfxClip(AudioManager.button_click_sfx);
+//!!!		AudioManager.PlaySfxClip(AudioManager.button_click_sfx);
 	}
 	
 	void OnDisappear()
@@ -197,7 +196,7 @@ public class UIAlertViewControllerBase : MonoBehaviour
 		}
 	}
 	
-	public void InitializeLabelWithTextSafely (MYLabel label, string text)
+	public void InitializeLabelWithTextSafely (UILabel label, string text)
 	{
 		if (string.IsNullOrEmpty(text))
 		{
@@ -449,7 +448,7 @@ public class UIAlertViewControllerBase : MonoBehaviour
 
 	protected float _buttonsIndentPx = 20f;
 	protected float _buttonsIndentPy = 20f;
-	protected float _addToHeightPx = 80f;
+	protected float _addToHeightPx = 0f;
 	protected virtual void Reposition()
 	{
 		//COLLECTING activeButtons
@@ -506,7 +505,7 @@ public class UIAlertViewControllerBase : MonoBehaviour
 			
 			Vector2 tileSize_ = backgroundSprite.inner;
 			
-			bgSize_.y = (Mathf.Round(summaryHeight_/tileSize_.y)-1f) * tileSize_.y + backgroundSprite.border.y + backgroundSprite.border.w;
+			bgSize_.y = Mathf.Round((summaryHeight_ - backgroundSprite.border.y - backgroundSprite.border.w)/tileSize_.y) * tileSize_.y + backgroundSprite.border.y + backgroundSprite.border.w;
 			backgroundSprite.transform.localScale = bgSize_;
 		}
 
@@ -518,5 +517,4 @@ public class UIAlertViewControllerBase : MonoBehaviour
 		foreach (UIAnchor anchor_ in buttonsAnchors_.OrderBy(anchor => anchor.name).ToList())
 			anchor_.Update();
 	}
-	*/
 }

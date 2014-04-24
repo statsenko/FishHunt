@@ -7,7 +7,6 @@ using System.Linq;
 
 public class UIAlertViewFactory : MonoBehaviour 
 {
-	/*
 	protected class ShowAlertGenericParams
 	{
 		public object[] alertPresentParams
@@ -300,7 +299,8 @@ public class UIAlertViewFactory : MonoBehaviour
 	{
 		Hide_();
 	}
-	
+
+	/*
 	public static void ShowShopMultiIconItemsPurchaseAlert(List<IShopItem> shopItems_, string alertTitleString_, KeyValuePair<ECurrencyType, int> price_, string otherButtonString_, string cancelBtnString_, GameObject alertCallbackTarget_, string alertCallbackMethod_)
 	{
 		PrepareToShow_();
@@ -825,7 +825,7 @@ public class UIAlertViewFactory : MonoBehaviour
 		object[] alertPresentParams_ = new object[]{atlas_, cafeIcnUv_, itemsBgUv_, itemsIcnUvs_, prizesIcnUvs_, cafeTitleString_, itemsGridTitleString_, prizesGridTitleString_, moneyProfitString_, expProfitString_, cafe_.MasterLevel, cafe_.CurrentWinCount, cafe_.MasterWinCount, confirmationBtnString_, cancelBtnString_};
 		Instance.ShowAlertGeneric<CafeMapUIInfoAlertViewController>(alertPresentParams_, alertCallbackTarget_, alertCallbackMethod_, "Prefabs/UI/AlertViews/CafeMapUIInfoAlertView");
 	}
-
+	*/
 	public static void ShowAlert(string title_, string message_, string confirmButtonTitle_, string[] otherButtonTitles_, GameObject alertCallbackTarget_, string alertCallbackMethod_, bool showTitleIcon_ = true)
 	{
 		PrepareToShow_();
@@ -852,7 +852,7 @@ public class UIAlertViewFactory : MonoBehaviour
 		object[] alertPresentParams_ = new object[]{atlas_, imageUv_, title_, message_, confirmButtonTitle_, confirmBtnUv_, otherButtonTitles_, showTitleIcon_};
 		Instance.ShowAlertGeneric<UIImageAlertViewController>(alertPresentParams_, alertCallbackTarget_, alertCallbackMethod_, "Prefabs/UI/AlertViews/UIImageAlertView");
 	}
-	
+
 	public static void HideCurrentAlert()
 	{
 		Instance.HideCurrentAlert_();
@@ -885,5 +885,4 @@ public class UIAlertViewFactory : MonoBehaviour
 			mInstance = null;
 		}
 	}
-	*/
 }

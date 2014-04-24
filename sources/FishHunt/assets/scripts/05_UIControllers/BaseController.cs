@@ -7,7 +7,7 @@ public class BaseController : MonoBehaviour
 	protected float camWidth = 0f;
 	protected float camHeight = 0f;
 	public Camera mCamera;
-	protected MYRoot mRoot;
+	protected UIRoot mRoot;
 
 	protected BaseController parent_;
 
@@ -29,8 +29,8 @@ public class BaseController : MonoBehaviour
 	}
 	protected virtual void DoAwake()
 	{
-//		foreach (MYLabel label in GetComponentsInChildren<MYLabel>())
-//			label.text = string.Empty;
+		foreach (UILabel label in GetComponentsInChildren<UILabel>())
+			label.text = string.Empty;
 	}
 
 	void Start () 
@@ -69,7 +69,7 @@ public class BaseController : MonoBehaviour
 			camWidth = mCamera.pixelWidth;
 			camHeight = mCamera.pixelHeight;
 	
-			mRoot = NGUITools.FindInParents<MYRoot>(mCamera.gameObject);
+			mRoot = NGUITools.FindInParents<UIRoot>(mCamera.gameObject);
 
 			if (mRoot != null)
 			{
@@ -124,7 +124,7 @@ public class BaseController : MonoBehaviour
 	{
 	}
 
-	/*
+
 	protected void AddImageWithPathNameAndPathToDictionaryIfNeeded(string resourceName, string resourcePath, Dictionary<string, Texture2D> texturesDict)
 	{
 		if(!texturesDict.ContainsKey(resourceName))
@@ -141,5 +141,4 @@ public class BaseController : MonoBehaviour
 			texturesDict[resourcePath] = texture;
 		}
 	}
-	*/
 }
