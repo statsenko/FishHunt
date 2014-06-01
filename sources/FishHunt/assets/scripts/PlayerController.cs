@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour {
 	GameObject go;
 	float speed = 3f;
 
-	GameObject goRight;
-	GameObject goLeft;
+	public GameObject goRight;
+	public GameObject goLeft;
 
 	float widthRight = 3f;
 	float widthLeft = 3f;
@@ -40,8 +40,8 @@ public class PlayerController : MonoBehaviour {
 		deltaTimeFly = DateTime.Now;
 		tr = transform;
 		go = gameObject;
-		goRight = GameObject.Find("right_stena");
-		goLeft = GameObject.Find("left_stena");
+		//goRight = GameObject.Find("right_stena");
+		//goLeft = GameObject.Find("left_stena");
 
 		limitXRight = goRight.transform.localPosition.x - widthRight/2f;
 		limitXLeft = goLeft.transform.localPosition.x + limitXLeft + 1f;
